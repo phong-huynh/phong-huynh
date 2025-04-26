@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "vite",
     "predeploy": "rm -rf dist && tsc -b && vite build",
-    "deploy": "gh-pages --dist dist --nojekyll --message 'Deploying to Github Pages'",
+    "deploy": "gh-pages --dist dist --cname phonghuynh.vn --nojekyll --message 'Deploying to Github Pages' ",
     "lint": "eslint .",
     "preview": "vite preview"
   },
