@@ -18,7 +18,7 @@ export const AboutPage = memo(() => {
           <p className="fs-5">
             Software Engineer with 2.5+ years of experience building responsive
             web and mobile applications using React.js and React Native with
-            strong interest and hands-on experience in Web3/blockchain
+            strong interest and hands-on experience in Web3/Blockchain
             integration. Proficient in modern JavaScript/TypeScript frameworks,
             UI development and API integration. Comfortable collaborating with
             backend systems and deploying full-stack solutions.
@@ -34,8 +34,9 @@ export const AboutPage = memo(() => {
                   </h5>
                 </div>
                 <p className="mb-0">
-                  Developed cross-platform mobile applications with a strong
-                  focus on clean UI, smooth UX and responsive design
+                  Developed cross-platform mobile applications with a keen focus
+                  on crafting intuitive UI, flawless UX, adaptive, responsive
+                  designs and seamless integration with backend services.
                 </p>
               </div>
 
@@ -45,9 +46,9 @@ export const AboutPage = memo(() => {
                   <h5 className="mb-0 fw-bold">Websites Development</h5>
                 </div>
                 <p className="mb-0">
-                  Aspiring Frontend Developer with blockchain technologies.
-                  Aiming to build efficient, user-friendly web apps integrating
-                  Web3 and Smart Contracts
+                  Building high-performance, user friendly websites with
+                  professional interfaces using cutting edge technologies for
+                  efficient and scalable web applications.
                 </p>
               </div>
             </div>
@@ -58,6 +59,10 @@ export const AboutPage = memo(() => {
                   <img src={Techs.Blockchain} alt="blockchain" />
                   <h5 className="mb-0 fw-bold">Blockchain</h5>
                 </div>
+                <p className="mb-0">
+                  Focused on creating secure, efficient blockchain products that
+                  fully leverage Smart Contracts and decentralized networks.
+                </p>
               </div>
 
               <div className="job-card">
@@ -68,6 +73,11 @@ export const AboutPage = memo(() => {
                   />
                   <h5 className="mb-0 fw-bold">Backend Development</h5>
                 </div>
+                <p className="mb-0">
+                  Focused on building high performance backend systems that
+                  handle heavy traffic, ensuring scalability and easy
+                  maintainability.
+                </p>
               </div>
 
               <div className="job-card">
