@@ -45,8 +45,10 @@ export const InternalChromeExtension = memo(() => {
 
         <div className="d-flex gap-3 align-items-end">
           <p className="mb-0">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia
-            laudantium quos voluptatem vero consequuntur
+            An extension that allows users to seamlessly connect their crypto
+            wallets and execute token transactions across multiple blockchains.
+            It features fiat to crypto purchases, decentralized social
+            engagement and real-time updates based on wallet activity.
           </p>
 
           {/* <button className="expanded-button">

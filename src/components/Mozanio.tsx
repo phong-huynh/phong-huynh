@@ -43,8 +43,11 @@ export const Mozanio = memo(() => {
 
         <div className="d-flex gap-3 align-items-end">
           <p className="mb-0">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia
-            laudantium quos voluptatem vero consequuntur
+            Mobile app that supports coffee shop businesses by providing a
+            platform for menu management, inventory tracking, and customer
+            orders. The app enhances the business’s operations and customer
+            engagement, creating a streamlined process for both shop owners and
+            customers in the coffee industry.
           </p>
 
           {/* <button className="expanded-button">

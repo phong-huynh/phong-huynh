@@ -43,8 +43,11 @@ export const CelebConfirmed = memo(() => {
 
         <div className="d-flex gap-3 align-items-end">
           <p className="mb-0">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia
-            laudantium quos voluptatem vero consequuntur
+            Mobile app providing the latest news and updates about popular
+            Korean celebrities. The app allows users to stay informed with real
+            time news, interviews and insights into the lives of their favorite
+            stars. Creating a dedicated platform for K-pop fans and celebrity
+            enthusiasts.
           </p>
 
           {/* <button className="expanded-button">

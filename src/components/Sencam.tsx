@@ -42,8 +42,10 @@ export const Sencam = memo(() => {
 
         <div className="d-flex gap-3 align-items-end">
           <p className="mb-0">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia
-            laudantium quos voluptatem vero consequuntur
+            Platform enabling users to download free banner templates or request
+            custom banners for personal or business use. Integrated free and
+            premium options to provide flexible solutions for individuals and
+            organizations seeking high quality banner designs.
           </p>
 
           {/* <button className="expanded-button">
