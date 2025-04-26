@@ -1,0 +1,107 @@
+.experience-page-container {
+  display: flex;
+  flex-direction: column;
+
+  .experience-page-content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+
+    .milestone-tree {
+      width: 2px;
+      background-color: rgba(0, 0, 0, 0.2);
+      height: 100%;
+      position: absolute;
+    }
+
+    .milestone {
+      width: 14px;
+      aspect-ratio: 1;
+      border-radius: 50%;
+      background-color: black;
+      position: absolute;
+      left: -6px;
+      top: 5px;
+    }
+
+    .zkSync,
+    .moonpay,
+    .transak {
+      img {
+        width: 65%;
+        aspect-ratio: unset;
+      }
+    }
+
+    .wagmi {
+      img {
+        width: 40%;
+        aspect-ratio: unset;
+      }
+    }
+
+    .aws {
+      img {
+        width: 30%;
+        aspect-ratio: unset;
+      }
+    }
+  }
+}
+
+@media (min-width: 481px) {
+  .experience-page-container {
+    .experience-page-content {
+      row-gap: 3rem;
+
+      .zkSync,
+      .moonpay,
+      .transak {
+        img {
+          width: 65%;
+        }
+      }
+
+      .wagmi {
+        img {
+          width: 40%;
+        }
+      }
+
+      .aws {
+        img {
+          width: 30%;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 1025px) {
+  .experience-page-container {
+    .experience-page-content {
+      flex-direction: row;
+      column-gap: 3rem;
+
+      .zkSync,
+      .moonpay,
+      .transak {
+        img {
+          width: 90%;
+        }
+      }
+
+      .wagmi {
+        img {
+          width: 60%;
+        }
+      }
+
+      .aws {
+        img {
+          width: 40%;
+        }
+      }
+    }
+  }
+}

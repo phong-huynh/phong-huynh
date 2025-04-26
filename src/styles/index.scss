@@ -1,0 +1,22 @@
+@import url('./App.scss');
+@import url('./HomePage.scss');
+@import url('./AboutPage.scss');
+@import url('./ContactPage.scss');
+@import url('./ExperiencePage.scss');
+@import url('./ProjectPage.scss');
+
+/** Components */
+@import url('./components/ScrollButton.scss');
+@import url('./components/TechBox.scss');
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.height-fit-content {
+  height: fit-content;
+}

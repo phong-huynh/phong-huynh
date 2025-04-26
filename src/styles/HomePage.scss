@@ -1,0 +1,96 @@
+.home-page-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+
+  .avatar {
+    width: 170px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  .my-info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .my-position {
+      color: rgb(85, 85, 85);
+      font-size: 1.5rem;
+      font-weight: 600;
+      margin-bottom: 1rem;
+    }
+  }
+
+  .btn-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .btn {
+    font-weight: 600;
+    transition: all 300ms ease;
+    padding: 0.7rem;
+    width: 8rem;
+    border-radius: 2rem;
+    font-size: 14px;
+  }
+
+  .btn-color-1,
+  .btn-color-2 {
+    border: rgb(53, 53, 53) 0.1rem solid;
+  }
+
+  .btn-color-1:hover,
+  .btn-color-2:hover {
+    cursor: pointer;
+  }
+
+  .btn-color-1,
+  .btn-color-2:hover {
+    background: rgb(53, 53, 53);
+    color: white;
+  }
+
+  .btn-color-1:hover {
+    background: rgb(0, 0, 0);
+  }
+
+  .btn-color-2 {
+    background: none;
+  }
+
+  .btn-color-2:hover {
+    border: rgb(255, 255, 255) 0.1rem solid;
+  }
+}
+
+@media (min-width: 481px) {
+  .home-page-container {
+    .avatar {
+      width: 300px;
+    }
+
+    .my-info-container {
+      .my-position {
+        font-size: 1.75rem;
+      }
+    }
+  }
+}
+
+@media (min-width: 1025px) {
+  .home-page-container {
+    flex-direction: row;
+    gap: 40px;
+
+    .avatar {
+      width: 400px;
+    }
+  }
+}
