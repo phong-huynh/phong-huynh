@@ -1,0 +1,59 @@
+name: 🚀🚀 Deploy new portfolio version 🚀🚀
+on:
+  # push:
+  #   tags:
+  #     - ^v[0-9]+\.[0-9]+\.[0-9]+$
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    name: '⚙️ Building project'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout source code
+        uses: actions/checkout@v4
+
+      - name: Installing Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Cache NPM packages
+        uses: actions/cache@v4
+        id: yarn-cache
+        with:
+          path: |
+            **/node_modules
+          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
+
+      - name: Installing NPM packages
+        if: steps.yarn-cache.outputs.cache-hit != 'true'
+        run: yarn install
+
+      - name: Building project
+        run: yarn build
+
+      - name: Uploading build artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${GITHUB_REF_NAME}
+          path: dist
+
+  deploy:
+    name: '🚀 Deploying to github pages 🚀'
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Downloading build artifacts
+        uses: actions/download-artifact@v4
+        with:
+          name: ${GITHUB_REF_NAME}
+
+      - name: Deploying to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          publish_branch: main
