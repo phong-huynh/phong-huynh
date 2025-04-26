@@ -1,5 +1,5 @@
 import { memo } from 'react'
-import { Expanded, WebDevelopment } from '../assets'
+import { WebDevelopment } from '../assets'
 
 export const VinaDAO = memo(() => {
   return (
@@ -51,9 +51,9 @@ export const VinaDAO = memo(() => {
             laudantium quos voluptatem vero consequuntur
           </p>
 
-          <button className="expanded-button">
+          {/* <button className="expanded-button">
             <img src={Expanded} alt="expanded" style={{ width: 14 }} />
-          </button>
+          </button> */}
         </div>
       </div>
     </div>

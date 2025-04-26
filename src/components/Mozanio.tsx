@@ -1,5 +1,5 @@
 import { memo } from 'react'
-import { Expanded, MobilePhone } from '../assets'
+import { MobilePhone } from '../assets'
 
 export const Mozanio = memo(() => {
   return (
@@ -47,9 +47,9 @@ export const Mozanio = memo(() => {
             laudantium quos voluptatem vero consequuntur
           </p>
 
-          <button className="expanded-button">
+          {/* <button className="expanded-button">
             <img src={Expanded} alt="expanded" style={{ width: 14 }} />
-          </button>
+          </button> */}
         </div>
       </div>
     </div>
