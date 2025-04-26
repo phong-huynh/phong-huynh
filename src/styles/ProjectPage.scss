@@ -85,7 +85,7 @@
 @media (min-width: 481px) {
   .project-page-container {
     .project-card {
-      flex-direction: row;
+      flex-direction: column;
 
       .project-thumbnail {
         height: 100%;
@@ -110,5 +110,13 @@
   .websites-panel,
   .mobile-apps-panel {
     grid-template-columns: auto auto;
+  }
+}
+
+@media (min-width: 1440px) {
+  .project-page-container {
+    .project-card {
+      flex-direction: row;
+    }
   }
 }

@@ -23,6 +23,18 @@
         font-size: larger;
         cursor: pointer;
       }
+
+      .nav-link {
+        color: black;
+        text-decoration: none;
+
+        &:hover {
+          color: grey;
+          text-decoration: underline;
+          text-underline-offset: 1rem;
+          text-decoration-color: rgb(181, 181, 181);
+        }
+      }
     }
   }
 

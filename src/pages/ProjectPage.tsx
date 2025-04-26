@@ -22,7 +22,12 @@ export const ProjectPage = memo(() => {
       </div>
 
       <TabContext value={value}>
-        <Tabs value={value} onChange={handleChange}>
+        <Tabs
+          value={value}
+          textColor="inherit"
+          onChange={handleChange}
+          classes={{ indicator: 'bg-dark' }}
+        >
           <Tab value="all" label="All" />
           <Tab value="websites" label="Websites" />
           <Tab value="mobile-apps" label="Mobile Apps" />

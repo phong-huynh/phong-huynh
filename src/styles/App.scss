@@ -111,16 +111,30 @@
       }
 
       .nav-links-container {
+        display: none;
+      }
+
+      .menu-icon-container {
+        display: block;
+      }
+    }
+
+    .section-container {
+      margin: 0 10rem;
+    }
+  }
+}
+
+@media (min-width: 1440px) {
+  .app-container {
+    .nav-bar-container {
+      .nav-links-container {
         display: flex;
       }
 
       .menu-icon-container {
         display: none;
       }
-    }
-
-    .section-container {
-      margin: 0 10rem;
     }
   }
 }
