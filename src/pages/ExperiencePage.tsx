@@ -191,7 +191,7 @@ export const ExperiencePage = memo(() => {
 
         <div style={{ flex: 4 }}>
           <Masonry
-            columns={{ xs: 2, sm: 2, md: 2, lg: 2, xl: 3 }}
+            columns={{ xs: 2, sm: 3, md: 3, lg: 4, xl: 5 }}
             spacing={2}
             className="m-0"
           >
@@ -220,17 +220,21 @@ export const ExperiencePage = memo(() => {
             <TechBox src={Tech.GitHubActions} name="GitHub Actions" />
             <TechBox src={Tech.NodeJs} name="Node.js" />
             <TechBox src={Tech.ExpressJs} name="Express.js" />
-            <TechBox src={Tech.AWS} className="aws" />
+            <TechBox
+              src={Tech.AWS}
+              className="aws"
+              name="Amazon Web Services"
+            />
             <TechBox src={Tech.Ethers} name="Ethers" />
-            <TechBox src={Tech.Wagmi} className="wagmi" />
+            <TechBox src={Tech.Wagmi} className="wagmi" name="Wagmi" />
             <TechBox src={Tech.Viem} name="Viem" />
             <TechBox src={Tech.Ethereum} name="Ethereum" />
-            <TechBox src={Tech.Zksync} className="zkSync" />
+            <TechBox src={Tech.Zksync} className="zkSync" name="zkSync" />
             <TechBox src={Tech.Arbitrum} name="Arbitrum" />
-            <TechBox src={Tech.MoonPay} className="moonpay" />
-            <TechBox src={Tech.TON} name="TON" />
+            <TechBox src={Tech.MoonPay} className="moonpay" name="MoonPay" />
+            <TechBox src={Tech.TON} name="The Open Network" />
             <TechBox src={Tech.WalletConnect} name="Wallet Connect" />
-            <TechBox src={Tech.Transak} className="transak" />
+            <TechBox src={Tech.Transak} className="transak" name="Transak" />
             <TechBox src={Tech.Web3Auth} name="Web3Auth" />
             <TechBox src={Tech.Farcaster} name="Farcaster" />
             <TechBox src={Tech.Firebase} name="Firebase" />
