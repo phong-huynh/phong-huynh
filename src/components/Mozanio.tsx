@@ -1,14 +1,12 @@
 import { memo } from 'react'
 import { MobilePhone } from '../assets'
+import MozanioThumbnail from '../assets/images/no-image.png'
 
 export const Mozanio = memo(() => {
   return (
     <div className="project-card gap-3">
       <div className="project-thumbnail">
-        <img
-          src="https://images.pexels.com/photos/440731/pexels-photo-440731.jpeg"
-          alt="project-thumbnail"
-        />
+        <img src={MozanioThumbnail} alt="project-thumbnail" />
       </div>
 
       <div className="project-info">

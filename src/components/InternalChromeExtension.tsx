@@ -1,14 +1,12 @@
 import { memo } from 'react'
 import { WebDevelopment } from '../assets'
+import InternalChromeExtensionThumbnail from '../assets/images/internal-chrome-extension.png'
 
 export const InternalChromeExtension = memo(() => {
   return (
     <div className="project-card gap-3">
       <div className="project-thumbnail">
-        <img
-          src="https://images.pexels.com/photos/440731/pexels-photo-440731.jpeg"
-          alt="project-thumbnail"
-        />
+        <img src={InternalChromeExtensionThumbnail} alt="project-thumbnail" />
       </div>
 
       <div className="project-info">

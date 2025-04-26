@@ -1,6 +1,4 @@
-import { TabContext, TabPanel } from '@mui/lab'
-import { Tab, Tabs } from '@mui/material'
-import { memo, SyntheticEvent, useState } from 'react'
+import { memo } from 'react'
 import {
   CelebConfirmed,
   InternalChromeExtension,
@@ -10,9 +8,8 @@ import {
 } from '../components'
 
 export const ProjectPage = memo(() => {
-  const [value, setValue] = useState('all')
-
-  const handleChange = (_: SyntheticEvent, tab: string) => setValue(tab)
+  // const [value, setValue] = useState('all')
+  // const handleChange = (_: SyntheticEvent, tab: string) => setValue(tab)
 
   return (
     <section id="project" className="section-container project-page-container">
@@ -21,7 +18,9 @@ export const ProjectPage = memo(() => {
         <h1 className="section-title">Projects</h1>
       </div>
 
-      <TabContext value={value}>
+      <AllProjectPanel />
+
+      {/* <TabContext value={value}>
         <Tabs
           value={value}
           textColor="inherit"
@@ -41,7 +40,7 @@ export const ProjectPage = memo(() => {
         <TabPanel value="mobile-apps">
           <MobileAppPanel />
         </TabPanel>
-      </TabContext>
+      </TabContext> */}
     </section>
   )
 })
@@ -58,21 +57,21 @@ const AllProjectPanel = memo(() => {
   )
 })
 
-const WebsitePanel = memo(() => {
-  return (
-    <div className="py-2 websites-panel">
-      <VinaDAO />
-      <InternalChromeExtension />
-      <Sencam />
-    </div>
-  )
-})
+// const WebsitePanel = memo(() => {
+//   return (
+//     <div className="py-2 websites-panel">
+//       <VinaDAO />
+//       <InternalChromeExtension />
+//       <Sencam />
+//     </div>
+//   )
+// })
 
-const MobileAppPanel = memo(() => {
-  return (
-    <div className="py-2 mobile-apps-panel">
-      <Mozanio />
-      <CelebConfirmed />
-    </div>
-  )
-})
+// const MobileAppPanel = memo(() => {
+//   return (
+//     <div className="py-2 mobile-apps-panel">
+//       <Mozanio />
+//       <CelebConfirmed />
+//     </div>
+//   )
+// })

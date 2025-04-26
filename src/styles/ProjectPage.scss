@@ -13,15 +13,15 @@
     .project-thumbnail {
       flex: 3;
       height: auto;
-      background-color: rgba(0, 0, 0, 0.1);
+      background-color: rgba(0, 0, 0, 0.03);
       border-radius: 0.4rem;
-      margin-bottom: 1rem;
 
       img {
         width: 100%;
         height: 100%;
+        aspect-ratio: 16/9;
         border-radius: 0.4rem;
-        object-fit: contain;
+        object-fit: cover;
       }
     }
 
@@ -128,11 +128,15 @@
 @media (min-width: 1440px) {
   .project-page-container {
     .project-card {
-      flex-direction: row;
-
       p {
         font-size: 0.95rem;
       }
     }
+  }
+
+  .all-projects-panel,
+  .websites-panel,
+  .mobile-apps-panel {
+    grid-template-columns: auto auto auto;
   }
 }
