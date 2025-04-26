@@ -15,13 +15,25 @@
     }
 
     .milestone {
-      width: 14px;
+      width: 12px;
       aspect-ratio: 1;
       border-radius: 50%;
       background-color: black;
       position: absolute;
-      left: -6px;
+      left: -5px;
       top: 5px;
+    }
+
+    .position-name {
+      font-size: 1.4rem;
+      font-weight: bold;
+      margin-bottom: 0px;
+    }
+
+    .project-name {
+      margin-bottom: 0px;
+      font-weight: bold;
+      font-size: 1rem;
     }
 
     .zkSync,
@@ -81,7 +93,7 @@
   .experience-page-container {
     .experience-page-content {
       flex-direction: row;
-      column-gap: 3rem;
+      column-gap: 1.5rem;
 
       .zkSync,
       .moonpay,

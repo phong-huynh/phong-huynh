@@ -1,7 +1,7 @@
 import { Masonry } from '@mui/lab'
+import { memo } from 'react'
 import * as Tech from '../assets'
 import { TechBox } from '../components'
-import { memo } from 'react'
 
 export const ExperiencePage = memo(() => {
   return (
@@ -17,70 +17,171 @@ export const ExperiencePage = memo(() => {
       <div className="experience-page-content">
         <div
           className="flex-1 position-relative height-fit-content"
-          style={{ flex: 4 }}
+          style={{ flex: 6 }}
         >
           <div className="milestone-tree" />
           <div style={{ height: 20 }} />
 
           <div className="mb-5 ps-4 position-relative">
             <div className="milestone" />
-            <h5 className="mb-0 fw-bold">Software Engineer</h5>
+            <h5 className="position-name">Software Engineer</h5>
             <p className="mb-2">
               <i>Zien Solutions VietNam | Oct 2022 - Apr 2025</i>
             </p>
-            <ul>
-              <li>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Voluptatum animi minus provident fuga saepe perferendis est
-                possimus dolor, debitis doloribus aperiam nam mollitia
-                blanditiis beatae quidem voluptatibus laborum hic eaque?
+            <ul className="mb-0 ps-3" style={{ listStyleType: 'square' }}>
+              <li className="mb-2">
+                <p className="project-name">VinaDAO | Sep 2024 - Apr 2025</p>
+                <ul className="ps-4">
+                  <li className="opacity-75">
+                    Built responsive and reusable interfaces using React.js
+                  </li>
+                  <li className="opacity-75">
+                    Integrated real time blockchain data, crypto wallets, and
+                    smart contracts with Wagmi and Viem
+                  </li>
+                  <li className="opacity-75">
+                    Integrated Transak for fiat to crypto token purchases
+                  </li>
+                  <li className="opacity-75">
+                    Configured CI/CD pipelines using GitHub Actions and deployed
+                    via AWS (Amplify, S3, Secrets Manager)
+                  </li>
+                  <li className="opacity-75">
+                    Participated in Agile sprints, performed code reviews, and
+                    resolved critical frontend bugs
+                  </li>
+                  <li className="opacity-75">
+                    Established frontend best practices for component design,
+                    styling and code consistency
+                  </li>
+                </ul>
               </li>
-              <li>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
-                eius quasi dolorum praesentium blanditiis ducimus rerum iste
-                commodi sunt veritatis aperiam, dolores quaerat possimus unde
-                alias esse optio delectus voluptatem.
+
+              <li className="mb-2">
+                <p className="project-name">
+                  Internal Chrome Extension | Nov 2023 - Sep 2024
+                </p>
+                <ul className="ps-4">
+                  <li className="opacity-75">
+                    Built and maintained a React.js Chrome Extension for multi
+                    chain wallet connection, token swaps, purchases and NFT
+                    viewing across EVM compatible chains
+                  </li>
+                  <li className="opacity-75">
+                    Integrated MoonPay for fiat based token purchases
+                  </li>
+                  <li className="opacity-75">
+                    Embedded Farcaster and WrapCast for decentralized social
+                    layers, added real time wallet based notifications via
+                    Daylight
+                  </li>
+                  <li className="opacity-75">
+                    Integrated the TON ecosystem and worked with Web3/backend
+                    teams to ensure secure and efficient cross chain operations
+                  </li>
+                </ul>
               </li>
-              <li>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Corrupti, aut consequuntur dolorem vitae impedit error
-                temporibus aliquid ullam quia natus laborum perferendis
-                voluptatem iusto sapiente, quam eveniet, provident quod
-                laudantium.
+
+              <li className="mb-2">
+                <p className="project-name">Mozanio | May 2023 - Nov 2023</p>
+                <ul className="ps-4">
+                  <li className="opacity-75">
+                    Maintained and refactored legacy React Native code to boost
+                    stability and performance
+                  </li>
+                  <li className="opacity-75">
+                    Developed new features for menu management and in app coffee
+                    ordering
+                  </li>
+                  <li className="opacity-75">
+                    Integrated backend APIs for inventory and order processing
+                  </li>
+                  <li className="opacity-75">
+                    Participated in testing and preparing app releases for both
+                    Android and iOS
+                  </li>
+                </ul>
               </li>
+
               <li>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Exercitationem alias, eligendi minus, laboriosam autem quasi
-                rerum corporis non tenetur et iste. Id repellendus quam corrupti
-                iure quis veritatis, porro sapiente.
+                <p className="project-name">
+                  Celeb Confirmed | Oct 2022 - May 2023
+                </p>
+                <ul className="ps-4">
+                  <li className="opacity-75">
+                    Collaborated in developing a React Native mobile app
+                    delivering Korean celebrity news content
+                  </li>
+                  <li className="opacity-75">
+                    Transformed Figma designs into pixel perfect, responsive UI
+                    components across Android and iOS platforms
+                  </li>
+                  <li className="opacity-75">
+                    Participated in debugging and resolving UI/UX issues to
+                    improve app stability
+                  </li>
+                  <li className="opacity-75">
+                    Assisted in preparing and submitting builds for internal
+                    testing environments
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+
+          <div className="mb-5 ps-4 position-relative">
+            <div className="milestone" />
+            <h5 className="position-name">Mobile Developer - Internship</h5>
+            <p className="mb-2">
+              <i>CTY TNHH Ant-Tech | Apr 2022 - Jun 2022</i>
+            </p>
+            <ul className="mb-0 ps-3">
+              <li className="opacity-75">
+                Developed cross-platform apps using React Native
+              </li>
+              <li className="opacity-75">
+                Implemented Redux for state management and integrated Firebase
+                for authentication and image storage
+              </li>
+              <li className="opacity-75">
+                Contributing to real-world e-commerce and social media projects
               </li>
             </ul>
           </div>
 
           <div className="ps-4 position-relative">
             <div className="milestone" />
-            <h5 className="mb-0 fw-bold">Mobile Developer - Internship</h5>
+            <h5 className="position-name">Others</h5>
             <p className="mb-2">
-              <i>CTY TNHH Ant-Tech | Apr 2022 - Jun 2022</i>
+              <i>Here are some projects I’ve worked on and contributed to</i>
             </p>
-            <ul>
-              <li>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
-                et qui, velit totam dolores ipsa pariatur tempora nostrum
-                eligendi ducimus perferendis repudiandae odio, nisi quo sunt ad
-                earum. A, illum!
-              </li>
-              <li>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Doloribus ad maiores debitis neque ipsam praesentium dolorem,
-                quia nesciunt quidem officia quo maxime commodi eaque
-                perspiciatis incidunt facere voluptates dicta voluptas.
-              </li>
-              <li>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum
-                odit consectetur, cumque, quae aliquam optio natus voluptatum
-                blanditiis ea tempora tenetur illum quasi animi placeat sunt.
-                Vel sit nobis veniam.
+            <ul className="mb-0 ps-3" style={{ listStyleType: 'square' }}>
+              <li className="mb-2">
+                <p className="project-name">
+                  <a
+                    href="https://sencam.vn"
+                    target="_blank"
+                    className="text-dark"
+                  >
+                    Sencam
+                  </a>{' '}
+                  | May 2024 - Jul 2024
+                </p>
+                <ul className="ps-4">
+                  <li className="opacity-75">
+                    Designed and developed a responsive website using React.js,
+                    enabling users to download and request custom banners for
+                    festivals, commemorative days, and public organizations
+                  </li>
+                  <li className="opacity-75">
+                    Integrated frontend with Strapi CMS via RESTful APIs to
+                    manage dynamic content
+                  </li>
+                  <li className="opacity-75">
+                    Managed the full deployment process, including build
+                    optimization and release to production environment
+                  </li>
+                </ul>
               </li>
             </ul>
           </div>
@@ -88,9 +189,9 @@ export const ExperiencePage = memo(() => {
           <div style={{ height: 20 }} />
         </div>
 
-        <div style={{ flex: 6 }}>
+        <div style={{ flex: 4 }}>
           <Masonry
-            columns={{ xs: 2, sm: 3, md: 3, lg: 5 }}
+            columns={{ xs: 2, sm: 2, md: 2, lg: 2, xl: 3 }}
             spacing={2}
             className="m-0"
           >
