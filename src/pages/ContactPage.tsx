@@ -11,14 +11,14 @@ export const ContactPage = memo(() => {
 
         <div className="contact-info-container">
           <div className="contact-info">
-            <img src={Email} alt="email-address" />
+            <img loading="lazy" src={Email} alt="email-address" />
             <a href={`mailto:${author.email}`} className="nav-link">
               {author.email}
             </a>
           </div>
 
           <div className="contact-info">
-            <img src={LinkedIn} alt="linked-in" />
+            <img loading="lazy" src={LinkedIn} alt="linked-in" />
             <a href={author.linkedIn} target="_blank" className="nav-link">
               LinkedIn
             </a>

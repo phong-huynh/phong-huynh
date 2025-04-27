@@ -39,7 +39,7 @@ export const App = () => {
         </div>
 
         <div onClick={toggleDrawer} className="menu-icon-container">
-          <img src={BreadIcon} alt="menu-icon" />
+          <img loading="lazy" src={BreadIcon} alt="menu-icon" />
         </div>
       </nav>
 
@@ -73,12 +73,14 @@ export const App = () => {
 
           <div className="d-flex gap-3 align-self-center">
             <img
+              loading="lazy"
               src={LinkedIn}
               alt="linked-in"
               className="cursor-pointer"
               onClick={() => window.open(author.linkedIn)}
             />
             <img
+              loading="lazy"
               src={GitHub}
               alt="github"
               className="cursor-pointer"

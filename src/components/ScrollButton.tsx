@@ -41,6 +41,7 @@ export const ScrollButton = () => {
 const ArrowDownIcon = (props: { className?: string }) => {
   return (
     <img
+      loading="lazy"
       src={ArrowDown}
       alt="arrow-down"
       className={classNames(props.className)}

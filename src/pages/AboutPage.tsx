@@ -12,7 +12,7 @@ export const AboutPage = memo(() => {
 
       <div className="about-page-content">
         <div className="portrait-wrapper">
-          <img src={AboutPic} />
+          <img loading="lazy" src={AboutPic} />
         </div>
         <div className="info-wrapper">
           <p className="fs-5">
@@ -28,7 +28,11 @@ export const AboutPage = memo(() => {
             <div className="left-jobs">
               <div className="job-card">
                 <div className="d-flex mb-2 gap-3 align-items-center">
-                  <img src={Techs.MobilePhone} alt="mobile-phone" />
+                  <img
+                    loading="lazy"
+                    src={Techs.MobilePhone}
+                    alt="mobile-phone"
+                  />
                   <h5 className="mb-0 fw-bold">
                     Mobile Applications Development
                   </h5>
@@ -42,7 +46,11 @@ export const AboutPage = memo(() => {
 
               <div className="job-card">
                 <div className="d-flex mb-2 gap-3 align-items-center">
-                  <img src={Techs.WebDevelopment} alt="website-development" />
+                  <img
+                    loading="lazy"
+                    src={Techs.WebDevelopment}
+                    alt="website-development"
+                  />
                   <h5 className="mb-0 fw-bold">Websites Development</h5>
                 </div>
                 <p className="mb-0">
@@ -56,7 +64,7 @@ export const AboutPage = memo(() => {
             <div className="right-jobs">
               <div className="job-card">
                 <div className="d-flex mb-2 gap-3 align-items-center">
-                  <img src={Techs.Blockchain} alt="blockchain" />
+                  <img loading="lazy" src={Techs.Blockchain} alt="blockchain" />
                   <h5 className="mb-0 fw-bold">Blockchain</h5>
                 </div>
                 <p className="mb-0">
@@ -68,6 +76,7 @@ export const AboutPage = memo(() => {
               <div className="job-card">
                 <div className="d-flex mb-2 gap-3 align-items-center">
                   <img
+                    loading="lazy"
                     src={Techs.BackendDevelopment}
                     alt="backend-development"
                   />
@@ -82,7 +91,11 @@ export const AboutPage = memo(() => {
 
               <div className="job-card">
                 <div className="d-flex mb-2 gap-3 align-items-center">
-                  <img src={Techs.Education} alt="backend-development" />
+                  <img
+                    loading="lazy"
+                    src={Techs.Education}
+                    alt="backend-development"
+                  />
                   <h5 className="mb-0 fw-bold">Education</h5>
                 </div>
                 <p className="mb-0">

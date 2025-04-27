@@ -11,7 +11,7 @@ export const TechBox = (props: TechBoxProps) => {
   return (
     <Tooltip title={props.name} arrow placement="bottom">
       <div className={classNames('tech-box', props.className)}>
-        <img src={props.src} alt="tech-box" />
+        <img loading="lazy" src={props.src} alt="tech-box" />
       </div>
     </Tooltip>
   )

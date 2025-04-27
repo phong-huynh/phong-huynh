@@ -6,7 +6,7 @@ import { author } from '../configs'
 export const HomePage = memo(() => {
   return (
     <section id="home" className="section-container home-page-container">
-      <img src={Avatar} alt="avatar" className="avatar" />
+      <img loading="lazy" src={Avatar} alt="avatar" className="avatar" />
 
       <div className="my-info-container">
         <p className="mb-0 section-sub-title fw-bold">Hello I'm</p>
@@ -27,12 +27,14 @@ export const HomePage = memo(() => {
 
         <div className="d-flex gap-3">
           <img
+            loading="lazy"
             src={LinkedIn}
             alt="linked-in"
             className="cursor-pointer"
             onClick={() => window.open(author.linkedIn)}
           />
           <img
+            loading="lazy"
             src={GitHub}
             alt="github"
             className="cursor-pointer"

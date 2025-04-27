@@ -6,7 +6,11 @@ export const InternalChromeExtension = memo(() => {
   return (
     <div className="project-card gap-3">
       <div className="project-thumbnail">
-        <img src={InternalChromeExtensionThumbnail} alt="project-thumbnail" />
+        <img
+          loading="lazy"
+          src={InternalChromeExtensionThumbnail}
+          alt="project-thumbnail"
+        />
       </div>
 
       <div className="project-info">
@@ -20,6 +24,7 @@ export const InternalChromeExtension = memo(() => {
 
           <button disabled className="expanded-button">
             <img
+              loading="lazy"
               src={WebDevelopment}
               alt="web-development"
               style={{ width: 20 }}
@@ -49,7 +54,7 @@ export const InternalChromeExtension = memo(() => {
           </p>
 
           {/* <button className="expanded-button">
-            <img src={Expanded} alt="expanded" style={{ width: 14 }} />
+            <img loading='lazy' src={Expanded} alt="expanded" style={{ width: 14 }} />
           </button> */}
         </div>
       </div>
