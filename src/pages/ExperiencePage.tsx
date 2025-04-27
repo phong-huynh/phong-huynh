@@ -19,174 +19,150 @@ export const ExperiencePage = memo(() => {
           className="flex-1 position-relative height-fit-content"
           style={{ flex: 6 }}
         >
-          <div className="milestone-tree" />
-          <div style={{ height: 20 }} />
+          <div className="position-relative mb-4 overflow-hidden">
+            <h5 className="company-name mb-2">
+              Oct 2022 - Apr 2025 | Zien Solutions VietNam
+            </h5>
+            <div className="milestone-tree" />
+            <div className="ps-4 position-relative">
+              <div className="milestone" />
+              <h5 className="project-name">VinaDAO</h5>
+              <p className="mb-2 position-name">
+                <i>Frontend Developer - Team Leader</i> |{' '}
+                <i>Sep 2024 - Apr 2025</i>
+              </p>
+              <ul className="ps-4">
+                <li className="opacity-75">
+                  Lead frontend architecture for VinaDAO, integrating blockchain
+                  wallets (Wagmi, Viem) and fiat-onramp services (Transak) using
+                  React.js
+                </li>
+                <li className="opacity-75">
+                  Built and deployed with AWS Amplify, S3, CI/CD pipelines via
+                  GitHub Actions
+                </li>
+                <li className="opacity-75">
+                  Established coding standards and best practices, improving
+                  code quality and team efficiency
+                </li>
+              </ul>
+            </div>
 
-          <div className="mb-5 ps-4 position-relative">
-            <div className="milestone" />
-            <h5 className="position-name">Software Engineer</h5>
-            <p className="mb-2">
-              <i>Zien Solutions VietNam | Oct 2022 - Apr 2025</i>
-            </p>
-            <ul className="mb-0 ps-3" style={{ listStyleType: 'square' }}>
-              <li className="mb-2">
-                <p className="project-name">VinaDAO | Sep 2024 - Apr 2025</p>
-                <ul className="ps-4">
-                  <li className="opacity-75">
-                    Built responsive and reusable interfaces using React.js
-                  </li>
-                  <li className="opacity-75">
-                    Integrated real time blockchain data, crypto wallets, and
-                    smart contracts with Wagmi and Viem
-                  </li>
-                  <li className="opacity-75">
-                    Integrated Transak for fiat to crypto token purchases
-                  </li>
-                  <li className="opacity-75">
-                    Configured CI/CD pipelines using GitHub Actions and deployed
-                    via AWS (Amplify, S3, Secrets Manager)
-                  </li>
-                  <li className="opacity-75">
-                    Participated in Agile sprints, performed code reviews, and
-                    resolved critical frontend bugs
-                  </li>
-                  <li className="opacity-75">
-                    Established frontend best practices for component design,
-                    styling and code consistency
-                  </li>
-                </ul>
-              </li>
+            <div className="ps-4 position-relative">
+              <div className="milestone" />
+              <h5 className="project-name">
+                Chrome Extension for Multi-chain Wallet
+              </h5>
+              <p className="mb-2 position-name">
+                <i>Frontend Developer | Nov 2023 – Sep 2024</i>
+              </p>
+              <ul className="ps-4">
+                <li className="opacity-75">
+                  Developed a multi-chain wallet Chrome Extension with React.js,
+                  integrating MoonPay, Farcaster, WrapCast and TON blockchain
+                  ecosystem
+                </li>
+                <li className="opacity-75">
+                  Collaborated with Web3 and Backend teams to optimize cross
+                  chain wallet operations and decentralized notifications
+                </li>
+              </ul>
+            </div>
 
-              <li className="mb-2">
-                <p className="project-name">
-                  Internal Chrome Extension | Nov 2023 - Sep 2024
-                </p>
-                <ul className="ps-4">
-                  <li className="opacity-75">
-                    Built and maintained a React.js Chrome Extension for multi
-                    chain wallet connection, token swaps, purchases and NFT
-                    viewing across EVM compatible chains
-                  </li>
-                  <li className="opacity-75">
-                    Integrated MoonPay for fiat based token purchases
-                  </li>
-                  <li className="opacity-75">
-                    Embedded Farcaster and WrapCast for decentralized social
-                    layers, added real time wallet based notifications via
-                    Daylight
-                  </li>
-                  <li className="opacity-75">
-                    Integrated the TON ecosystem and worked with Web3/backend
-                    teams to ensure secure and efficient cross chain operations
-                  </li>
-                </ul>
-              </li>
+            <div className="ps-4 position-relative">
+              <div className="milestone" />
+              <h5 className="project-name">Mozanio</h5>
+              <p className="mb-2 position-name">
+                <i>Mobile Developer | May 2023 – Nov 2023</i>
+              </p>
+              <ul className="ps-4">
+                <li className="opacity-75">
+                  Refactored legacy React Native application for Mozanio
+                  Vendor/User, improving performance and stability across
+                  Android/iOS platforms
+                </li>
+                <li className="opacity-75">
+                  Built new module for menu management and mobile ordering,
+                  integrating backend APIs and enhancing user experience
+                </li>
+              </ul>
+            </div>
 
-              <li className="mb-2">
-                <p className="project-name">Mozanio | May 2023 - Nov 2023</p>
-                <ul className="ps-4">
-                  <li className="opacity-75">
-                    Maintained and refactored legacy React Native code to boost
-                    stability and performance
-                  </li>
-                  <li className="opacity-75">
-                    Developed new features for menu management and in app coffee
-                    ordering
-                  </li>
-                  <li className="opacity-75">
-                    Integrated backend APIs for inventory and order processing
-                  </li>
-                  <li className="opacity-75">
-                    Participated in testing and preparing app releases for both
-                    Android and iOS
-                  </li>
-                </ul>
-              </li>
-
-              <li>
-                <p className="project-name">
-                  Celeb Confirmed | Oct 2022 - May 2023
-                </p>
-                <ul className="ps-4">
-                  <li className="opacity-75">
-                    Collaborated in developing a React Native mobile app
-                    delivering Korean celebrity news content
-                  </li>
-                  <li className="opacity-75">
-                    Transformed Figma designs into pixel perfect, responsive UI
-                    components across Android and iOS platforms
-                  </li>
-                  <li className="opacity-75">
-                    Participated in debugging and resolving UI/UX issues to
-                    improve app stability
-                  </li>
-                  <li className="opacity-75">
-                    Assisted in preparing and submitting builds for internal
-                    testing environments
-                  </li>
-                </ul>
-              </li>
-            </ul>
+            <div className="ps-4 position-relative">
+              <div className="milestone" />
+              <h5 className="project-name">Celeb Confirmed </h5>
+              <p className="mb-2 position-name">
+                <i>Mobile Developer | Oct 2022 – May 2023</i>
+              </p>
+              <ul className="ps-4">
+                <li className="opacity-75">
+                  Developed a React Native mobile app for Korean celebrity news,
+                  transforming Figma design into pixel perfect UI components
+                </li>
+                <li className="opacity-75">
+                  Conducted rigorous debugging and optimization, improving app
+                  performance and user satisfaction
+                </li>
+              </ul>
+            </div>
           </div>
 
-          <div className="mb-5 ps-4 position-relative">
-            <div className="milestone" />
-            <h5 className="position-name">Mobile Developer - Internship</h5>
-            <p className="mb-2">
-              <i>CTY TNHH Ant-Tech | Apr 2022 - Jun 2022</i>
-            </p>
-            <ul className="mb-0 ps-3">
-              <li className="opacity-75">
-                Developed cross-platform apps using React Native
-              </li>
-              <li className="opacity-75">
-                Implemented Redux for state management and integrated Firebase
-                for authentication and image storage
-              </li>
-              <li className="opacity-75">
-                Contributing to real-world e-commerce and social media projects
-              </li>
-            </ul>
+          <div className="position-relative mb-4 overflow-hidden">
+            <h5 className="company-name mb-2">
+              Apr 2022 - Jun 2022 | CTY TNHH Ant-Tech
+            </h5>
+            <div className="milestone-tree" />
+            <div className="ps-4 position-relative">
+              <div className="milestone" />
+              <h5 className="project-name">Internship</h5>
+              <p className="mb-2 position-name">
+                <i>Mobile Developer Intern</i> | <i>Apr 2022 - Jun 2022</i>
+              </p>
+              <ul className="ps-4">
+                <li className="opacity-75">
+                  Developed cross-platform apps using React Native
+                </li>
+                <li className="opacity-75">
+                  Implemented Redux for state management, integrated Firebase
+                  for authentication and image storage
+                </li>
+                <li className="opacity-75">
+                  Contributing to real world e-commerce and social media
+                  projects
+                </li>
+              </ul>
+            </div>
           </div>
 
-          <div className="ps-4 position-relative">
-            <div className="milestone" />
-            <h5 className="position-name">Others</h5>
-            <p className="mb-2">
-              <i>Here are some projects I’ve worked on and contributed to</i>
-            </p>
-            <ul className="mb-0 ps-3" style={{ listStyleType: 'square' }}>
-              <li className="mb-2">
-                <p className="project-name">
-                  <a
-                    href="https://sencam.vn"
-                    target="_blank"
-                    className="text-dark"
-                  >
-                    Sencam
-                  </a>{' '}
-                  | May 2024 - Jul 2024
-                </p>
-                <ul className="ps-4">
-                  <li className="opacity-75">
-                    Designed and developed a responsive website using React.js,
-                    enabling users to download and request custom banners for
-                    festivals, commemorative days, and public organizations
-                  </li>
-                  <li className="opacity-75">
-                    Integrated frontend with Strapi CMS via RESTful APIs to
-                    manage dynamic content
-                  </li>
-                  <li className="opacity-75">
-                    Managed the full deployment process, including build
-                    optimization and release to production environment
-                  </li>
-                </ul>
-              </li>
-            </ul>
+          <div className="position-relative overflow-hidden">
+            <h5 className="company-name mb-2">Freelancer</h5>
+            <div className="milestone-tree" />
+            <div className="ps-4 position-relative">
+              <div className="milestone" />
+              <h5 className="project-name">
+                <a
+                  target="_blank"
+                  className="text-dark"
+                  href="http://sencam.vn"
+                >
+                  Sencam
+                </a>
+              </h5>
+              <p className="mb-2 position-name">
+                <i>Frontend Developer</i> | <i>May 2024 - Jun 2024</i>
+              </p>
+              <ul className="ps-4">
+                <li className="opacity-75">
+                  Delivered a fully responsive web application using React.js
+                  and Strapi CMS
+                </li>
+                <li className="opacity-75">
+                  Managed end to end deployment pipeline including build
+                  optimization and production release
+                </li>
+              </ul>
+            </div>
           </div>
-
-          <div style={{ height: 20 }} />
         </div>
 
         <div style={{ flex: 4 }}>

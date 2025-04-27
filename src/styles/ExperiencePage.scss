@@ -10,22 +10,23 @@
     .milestone-tree {
       width: 2px;
       background-color: rgba(0, 0, 0, 0.2);
-      height: 100%;
+      height: 96%;
       position: absolute;
+      left: 12px;
     }
 
     .milestone {
-      width: 12px;
+      width: 10px;
       aspect-ratio: 1;
       border-radius: 50%;
       background-color: black;
       position: absolute;
-      left: -5px;
-      top: 5px;
+      left: 8px;
+      top: 12px;
     }
 
-    .position-name {
-      font-size: 1.4rem;
+    .company-name {
+      font-size: 1.1rem;
       font-weight: bold;
       margin-bottom: 0px;
     }
@@ -34,6 +35,11 @@
       margin-bottom: 0px;
       font-weight: bold;
       font-size: 1rem;
+      padding-top: 0.4rem;
+    }
+
+    .position-name {
+      font-size: 0.9rem;
     }
 
     .zkSync,
@@ -66,6 +72,14 @@
     .experience-page-content {
       row-gap: 3rem;
 
+      .company-name {
+        font-size: 1.4rem;
+      }
+
+      .project-name {
+        font-size: 1.25rem;
+      }
+
       .zkSync,
       .moonpay,
       .transak {
@@ -94,6 +108,14 @@
     .experience-page-content {
       flex-direction: row;
       column-gap: 1.5rem;
+
+      .company-name {
+        font-size: 1.4rem;
+      }
+
+      .project-name {
+        font-size: 1.25rem;
+      }
 
       .zkSync,
       .moonpay,
