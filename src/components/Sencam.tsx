@@ -6,7 +6,7 @@ export const Sencam = memo(() => {
   return (
     <div className="project-card gap-3">
       <div className="project-thumbnail">
-        <img loading="lazy" src={SencamThumbnail} alt="project-thumbnail" />
+        <img src={SencamThumbnail} alt="project-thumbnail" />
       </div>
 
       <div className="project-info">

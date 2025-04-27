@@ -12,7 +12,7 @@ export const AboutPage = memo(() => {
 
       <div className="about-page-content">
         <div className="portrait-wrapper">
-          <img loading="lazy" src={AboutPic} />
+          <img src={AboutPic} />
         </div>
         <div className="info-wrapper">
           <p className="fs-5">
@@ -64,7 +64,7 @@ export const AboutPage = memo(() => {
             <div className="right-jobs">
               <div className="job-card">
                 <div className="d-flex mb-2 gap-3 align-items-center">
-                  <img loading="lazy" src={Techs.Blockchain} alt="blockchain" />
+                  <img src={Techs.Blockchain} alt="blockchain" />
                   <h5 className="mb-0 fw-bold">Blockchain</h5>
                 </div>
                 <p className="mb-0">

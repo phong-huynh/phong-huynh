@@ -39,7 +39,7 @@ export const App = () => {
         </div>
 
         <div onClick={toggleDrawer} className="menu-icon-container">
-          <img loading="lazy" src={BreadIcon} alt="menu-icon" />
+          <img src={BreadIcon} alt="menu-icon" />
         </div>
       </nav>
 

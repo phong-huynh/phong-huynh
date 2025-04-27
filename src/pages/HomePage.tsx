@@ -6,7 +6,7 @@ import { author } from '../configs'
 export const HomePage = memo(() => {
   return (
     <section id="home" className="section-container home-page-container">
-      <img loading="lazy" src={Avatar} alt="avatar" className="avatar" />
+      <img src={Avatar} alt="avatar" className="avatar" />
 
       <div className="my-info-container">
         <p className="mb-0 section-sub-title fw-bold">Hello I'm</p>

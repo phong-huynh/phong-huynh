@@ -6,7 +6,7 @@ export const Mozanio = memo(() => {
   return (
     <div className="project-card gap-3">
       <div className="project-thumbnail">
-        <img loading="lazy" src={MozanioThumbnail} alt="project-thumbnail" />
+        <img src={MozanioThumbnail} alt="project-thumbnail" />
       </div>
 
       <div className="project-info">
