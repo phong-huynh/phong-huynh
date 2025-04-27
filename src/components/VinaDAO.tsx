@@ -45,10 +45,9 @@ export const VinaDAO = memo(() => {
 
         <div className="d-flex gap-3 align-items-end">
           <p className="mb-0">
-            VinaDAO is a decentralized real estate investment platform that
-            harnesses the power of blockchain technology to ensure secure,
-            transparent, and efficient transactions, revolutionizing the way
-            real estate investments are made.
+            A blockchain powered decentralized platform transforming real estate
+            investments through secure, transparent and efficient transaction
+            solutions
           </p>
 
           {/* <button className="expanded-button">

@@ -41,11 +41,9 @@ export const Mozanio = memo(() => {
 
         <div className="d-flex gap-3 align-items-end">
           <p className="mb-0">
-            Mobile app that supports coffee shop businesses by providing a
-            platform for menu management, inventory tracking, and customer
-            orders. The app enhances the business’s operations and customer
-            engagement, creating a streamlined process for both shop owners and
-            customers in the coffee industry.
+            Mobile app streamlining coffee shop operations through integrated
+            menu management, inventory tracking, and order processing to enhance
+            business efficiency and customer engagement
           </p>
 
           {/* <button className="expanded-button">

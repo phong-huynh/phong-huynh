@@ -43,10 +43,9 @@ export const InternalChromeExtension = memo(() => {
 
         <div className="d-flex gap-3 align-items-end">
           <p className="mb-0">
-            An extension that allows users to seamlessly connect their crypto
-            wallets and execute token transactions across multiple blockchains.
-            It features fiat to crypto purchases, decentralized social
-            engagement and real-time updates based on wallet activity.
+            Crypto wallet extension enabling seamless cross chain transactions,
+            fiat to crypto purchasing, decentralized social engagement and real
+            time wallet activity updates.
           </p>
 
           {/* <button className="expanded-button">
