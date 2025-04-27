@@ -1,6 +1,6 @@
 import { memo } from 'react'
 import { MobilePhone } from '../assets'
-import MozanioThumbnail from '../assets/images/no-image.png'
+import MozanioThumbnail from '../assets/resizes/no-image.png'
 
 export const Mozanio = memo(() => {
   return (

@@ -1,6 +1,6 @@
 import { memo } from 'react'
 import { WebDevelopment } from '../assets'
-import SencamThumbnail from '../assets/images/sencam.png'
+import SencamThumbnail from '../assets/resizes/sencam.png'
 
 export const Sencam = memo(() => {
   return (

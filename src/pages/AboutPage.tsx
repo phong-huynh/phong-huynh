@@ -1,6 +1,6 @@
 import { memo } from 'react'
 import * as Techs from '../assets'
-import AboutPic from '../assets/images/about.jpg'
+import AboutPic from '../assets/resizes/about.jpg'
 
 export const AboutPage = memo(() => {
   return (

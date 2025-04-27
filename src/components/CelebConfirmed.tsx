@@ -1,6 +1,6 @@
 import { memo } from 'react'
 import { MobilePhone } from '../assets'
-import CelebConfirmedThumbnail from '../assets/images/celeb-confirmed.png'
+import CelebConfirmedThumbnail from '../assets/resizes/celeb-confirmed.png'
 
 export const CelebConfirmed = memo(() => {
   return (

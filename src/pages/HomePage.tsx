@@ -1,6 +1,6 @@
 import { memo } from 'react'
 import { GitHub, LinkedIn, MyCV } from '../assets'
-import Avatar from '../assets/images/avatar.jpg'
+import Avatar from '../assets/resizes/avatar.jpg'
 import { author } from '../configs'
 
 export const HomePage = memo(() => {

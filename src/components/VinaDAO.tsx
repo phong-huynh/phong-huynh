@@ -1,6 +1,6 @@
 import { memo } from 'react'
 import { WebDevelopment } from '../assets'
-import VinaDAOThumbnail from '../assets/images/vinadao.png'
+import VinaDAOThumbnail from '../assets/resizes/vinadao.png'
 
 export const VinaDAO = memo(() => {
   return (

@@ -1,6 +1,6 @@
 import { memo } from 'react'
 import { WebDevelopment } from '../assets'
-import InternalChromeExtensionThumbnail from '../assets/images/internal-chrome-extension.png'
+import InternalChromeExtensionThumbnail from '../assets/resizes/internal-chrome-extension.png'
 
 export const InternalChromeExtension = memo(() => {
   return (
