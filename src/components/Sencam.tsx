@@ -1,8 +1,11 @@
 import { memo } from 'react'
+import { useTranslation } from 'react-i18next'
 import { WebDevelopment } from '../assets'
 import SencamThumbnail from '../assets/resizes/sencam.png'
 
 export const Sencam = memo(() => {
+  const { t } = useTranslation()
+
   return (
     <div className="project-card gap-3">
       <div className="project-thumbnail">
@@ -14,7 +17,7 @@ export const Sencam = memo(() => {
           <div className="mb-2">
             <h4 className="mb-0 fw-bold">Sencam</h4>
             <p className="mb-0">
-              <i>Freelancer </i>| <i>May 2024 - Jul 2024</i>
+              <i>Freelancer </i>| <i>{t('sencam-duration')}</i>
             </p>
           </div>
 
@@ -40,11 +43,7 @@ export const Sencam = memo(() => {
         </div>
 
         <div className="d-flex gap-3 align-items-end">
-          <p className="mb-0">
-            Platform offering free banner templates and custom design requests
-            with free/premium tiers for flexible premium quality solutions
-            tailored to individuals and organizations.
-          </p>
+          <p className="mb-0">{t('sencam-summary')}</p>
 
           {/* <button className="expanded-button">
             <img loading='lazy' src={Expanded} alt="expanded" style={{ width: 14 }} />

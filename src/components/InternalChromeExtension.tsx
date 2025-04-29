@@ -1,8 +1,11 @@
 import { memo } from 'react'
+import { useTranslation } from 'react-i18next'
 import { WebDevelopment } from '../assets'
 import InternalChromeExtensionThumbnail from '../assets/resizes/internal-chrome-extension.png'
 
 export const InternalChromeExtension = memo(() => {
+  const { t } = useTranslation()
+
   return (
     <div className="project-card gap-3">
       <div className="project-thumbnail">
@@ -18,7 +21,8 @@ export const InternalChromeExtension = memo(() => {
           <div className="mb-2">
             <h4 className="mb-0 fw-bold">Internal Chrome Extension</h4>
             <p className="mb-0">
-              <i>Zien Solutions Vietnam</i> | <i> Nov 2023 - Sep 2024</i>
+              <i>Zien Solutions Vietnam</i> |{' '}
+              <i> {t('internal-chrome-extension-duration')}</i>
             </p>
           </div>
 
@@ -47,11 +51,7 @@ export const InternalChromeExtension = memo(() => {
         </div>
 
         <div className="d-flex gap-3 align-items-end">
-          <p className="mb-0">
-            Crypto wallet extension enabling seamless cross chain transactions,
-            fiat to crypto purchasing, decentralized social engagement and real
-            time wallet activity updates.
-          </p>
+          <p className="mb-0">{t('internal-chrome-extension-summary')}</p>
 
           {/* <button className="expanded-button">
             <img loading='lazy' src={Expanded} alt="expanded" style={{ width: 14 }} />

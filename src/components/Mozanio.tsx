@@ -1,8 +1,11 @@
 import { memo } from 'react'
+import { useTranslation } from 'react-i18next'
 import { MobilePhone } from '../assets'
 import MozanioThumbnail from '../assets/resizes/no-image.png'
 
 export const Mozanio = memo(() => {
+  const { t } = useTranslation()
+
   return (
     <div className="project-card gap-3">
       <div className="project-thumbnail">
@@ -14,7 +17,7 @@ export const Mozanio = memo(() => {
           <div className="mb-2">
             <h4 className="mb-0 fw-bold">Mozanio</h4>
             <p className="mb-0">
-              <i>Zien Solutions Vietnam </i>| <i>May 2023 - Nov 2023</i>
+              <i>Zien Solutions Vietnam </i>| <i>{t('mozanio-duration')}</i>
             </p>
           </div>
 
@@ -41,11 +44,7 @@ export const Mozanio = memo(() => {
         </div>
 
         <div className="d-flex gap-3 align-items-end">
-          <p className="mb-0">
-            Mobile app streamlining coffee shop operations through integrated
-            menu management, inventory tracking, and order processing to enhance
-            business efficiency and customer engagement
-          </p>
+          <p className="mb-0">{t('mozanio-summary')}</p>
 
           {/* <button className="expanded-button">
             <img loading='lazy' src={Expanded} alt="expanded" style={{ width: 14 }} />

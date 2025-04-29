@@ -1,8 +1,11 @@
 import { memo } from 'react'
+import { useTranslation } from 'react-i18next'
 import { WebDevelopment } from '../assets'
 import VinaDAOThumbnail from '../assets/resizes/vinadao.png'
 
 export const VinaDAO = memo(() => {
+  const { t } = useTranslation()
+
   return (
     <div className="project-card gap-3">
       <div className="project-thumbnail">
@@ -14,7 +17,7 @@ export const VinaDAO = memo(() => {
           <div className="mb-2">
             <h4 className="mb-0 fw-bold">VinaDAO</h4>
             <p className="mb-0">
-              <i>Zien Solutions Vietnam </i>| <i> Sep 2024 - Apr 2025</i>
+              <i>Zien Solutions Vietnam </i>| <i> {t('vinadao-duration')}</i>
             </p>
           </div>
 
@@ -45,11 +48,7 @@ export const VinaDAO = memo(() => {
         </div>
 
         <div className="d-flex gap-3 align-items-end">
-          <p className="mb-0">
-            A blockchain powered decentralized platform transforming real estate
-            investments through secure, transparent and efficient transaction
-            solutions
-          </p>
+          <p className="mb-0">{t('vinadao-summary')}</p>
 
           {/* <button className="expanded-button">
             <img loading='lazy' src={Expanded} alt="expanded" style={{ width: 14 }} />
