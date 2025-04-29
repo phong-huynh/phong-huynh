@@ -14,7 +14,7 @@ export const VinaDAO = memo(() => {
           <div className="mb-2">
             <h4 className="mb-0 fw-bold">VinaDAO</h4>
             <p className="mb-0">
-              <i>Zien Solutions Vietnam | Sep 2024 - Apr 2025</i>
+              <i>Zien Solutions Vietnam </i>| <i> Sep 2024 - Apr 2025</i>
             </p>
           </div>
 

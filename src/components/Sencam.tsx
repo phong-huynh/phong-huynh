@@ -14,7 +14,7 @@ export const Sencam = memo(() => {
           <div className="mb-2">
             <h4 className="mb-0 fw-bold">Sencam</h4>
             <p className="mb-0">
-              <i>Freelancer | May 2024 - Jul 2024</i>
+              <i>Freelancer </i>| <i>May 2024 - Jul 2024</i>
             </p>
           </div>
 

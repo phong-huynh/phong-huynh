@@ -18,7 +18,7 @@ export const CelebConfirmed = memo(() => {
           <div className="mb-2">
             <h4 className="mb-0 fw-bold">Celeb Confirmed</h4>
             <p className="mb-0">
-              <i>Zien Solutions Vietnam | Oct 2022 - May 2023</i>
+              <i>Zien Solutions Vietnam</i> | <i> Oct 2022 - May 2023</i>
             </p>
           </div>
 

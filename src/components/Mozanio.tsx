@@ -14,7 +14,7 @@ export const Mozanio = memo(() => {
           <div className="mb-2">
             <h4 className="mb-0 fw-bold">Mozanio</h4>
             <p className="mb-0">
-              <i>Zien Solutions Vietnam | May 2023 - Nov 2023</i>
+              <i>Zien Solutions Vietnam </i>| <i>May 2023 - Nov 2023</i>
             </p>
           </div>
 

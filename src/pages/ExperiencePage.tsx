@@ -54,7 +54,7 @@ export const ExperiencePage = memo(() => {
                 Chrome Extension for Multi-chain Wallet
               </h5>
               <p className="mb-2 position-name">
-                <i>Frontend Developer | Nov 2023 – Sep 2024</i>
+                <i>Frontend Developer</i> | <i>Nov 2023 – Sep 2024</i>
               </p>
               <ul className="ps-4">
                 <li className="opacity-75">
@@ -73,7 +73,7 @@ export const ExperiencePage = memo(() => {
               <div className="milestone" />
               <h5 className="project-name">Mozanio</h5>
               <p className="mb-2 position-name">
-                <i>Mobile Developer | May 2023 – Nov 2023</i>
+                <i>Mobile Developer </i>|<i> May 2023 – Nov 2023</i>
               </p>
               <ul className="ps-4">
                 <li className="opacity-75">
@@ -92,7 +92,7 @@ export const ExperiencePage = memo(() => {
               <div className="milestone" />
               <h5 className="project-name">Celeb Confirmed </h5>
               <p className="mb-2 position-name">
-                <i>Mobile Developer | Oct 2022 – May 2023</i>
+                <i>Mobile Developer </i>|<i> Oct 2022 – May 2023</i>
               </p>
               <ul className="ps-4">
                 <li className="opacity-75">

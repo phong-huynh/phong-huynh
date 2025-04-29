@@ -18,7 +18,7 @@ export const InternalChromeExtension = memo(() => {
           <div className="mb-2">
             <h4 className="mb-0 fw-bold">Internal Chrome Extension</h4>
             <p className="mb-0">
-              <i>Zien Solutions Vietnam | Nov 2023 - Sep 2024</i>
+              <i>Zien Solutions Vietnam</i> | <i> Nov 2023 - Sep 2024</i>
             </p>
           </div>
 
