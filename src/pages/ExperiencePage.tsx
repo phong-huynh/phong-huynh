@@ -2,16 +2,19 @@ import { Masonry } from '@mui/lab'
 import { memo } from 'react'
 import * as Tech from '../assets'
 import { TechBox } from '../components'
+import { useTranslation } from 'react-i18next'
 
 export const ExperiencePage = memo(() => {
+  const { t } = useTranslation()
+
   return (
     <section
       id="experience"
       className="section-container experience-page-container"
     >
       <div className="d-flex flex-column align-items-center mb-3">
-        <p className="mb-0 section-sub-title">Explore My</p>
-        <h1 className="section-title">Experiences</h1>
+        <p className="mb-0 section-sub-title">{t('explore-my')}</p>
+        <h1 className="section-title">{t('experiences')}</h1>
       </div>
 
       <div className="experience-page-content">
@@ -20,31 +23,19 @@ export const ExperiencePage = memo(() => {
           style={{ flex: 6 }}
         >
           <div className="position-relative mb-4 overflow-hidden">
-            <h5 className="company-name mb-2">
-              Oct 2022 - Apr 2025 | Zien Solutions VietNam
-            </h5>
+            <h5 className="company-name mb-2">{t('zien-solutions-vietnam')}</h5>
             <div className="milestone-tree" />
             <div className="ps-4 position-relative">
               <div className="milestone" />
               <h5 className="project-name">VinaDAO</h5>
               <p className="mb-2 position-name">
                 <i>Frontend Developer - Team Leader</i> |{' '}
-                <i>Sep 2024 - Apr 2025</i>
+                <i>{t('vinadao-duration')}</i>
               </p>
               <ul className="ps-4">
-                <li className="opacity-75">
-                  Lead frontend architecture for VinaDAO, integrating blockchain
-                  wallets (Wagmi, Viem) and fiat-onramp services (Transak) using
-                  React.js
-                </li>
-                <li className="opacity-75">
-                  Built and deployed with AWS Amplify, S3, CI/CD pipelines via
-                  GitHub Actions
-                </li>
-                <li className="opacity-75">
-                  Established coding standards and best practices, improving
-                  code quality and team efficiency
-                </li>
+                <li className="opacity-75">{t('vinadao-description-1')}</li>
+                <li className="opacity-75">{t('vinadao-description-2')}</li>
+                <li className="opacity-75">{t('vinadao-description-3')}</li>
               </ul>
             </div>
 
@@ -54,17 +45,15 @@ export const ExperiencePage = memo(() => {
                 Chrome Extension for Multi-chain Wallet
               </h5>
               <p className="mb-2 position-name">
-                <i>Frontend Developer</i> | <i>Nov 2023 – Sep 2024</i>
+                <i>Frontend Developer</i> |{' '}
+                <i>{t('internal-chrome-extension-duration')}</i>
               </p>
               <ul className="ps-4">
                 <li className="opacity-75">
-                  Developed a multi-chain wallet Chrome Extension with React.js,
-                  integrating MoonPay, Farcaster, WrapCast and TON blockchain
-                  ecosystem
+                  {t('internal-chrome-extension-description-1')}
                 </li>
                 <li className="opacity-75">
-                  Collaborated with Web3 and Backend teams to optimize cross
-                  chain wallet operations and decentralized notifications
+                  {t('internal-chrome-extension-description-2')}
                 </li>
               </ul>
             </div>
@@ -73,17 +62,14 @@ export const ExperiencePage = memo(() => {
               <div className="milestone" />
               <h5 className="project-name">Mozanio</h5>
               <p className="mb-2 position-name">
-                <i>Mobile Developer </i>|<i> May 2023 – Nov 2023</i>
+                <i>Mobile Developer </i> | <i>{t('mozanio-duration')}</i>
               </p>
               <ul className="ps-4">
                 <li className="opacity-75">
-                  Refactored legacy React Native application for Mozanio
-                  Vendor/User, improving performance and stability across
-                  Android/iOS platforms
+                  {t('mozanio-duration-description-1')}
                 </li>
                 <li className="opacity-75">
-                  Built new module for menu management and mobile ordering,
-                  integrating backend APIs and enhancing user experience
+                  {t('mozanio-duration-description-2')}
                 </li>
               </ul>
             </div>
@@ -92,43 +78,39 @@ export const ExperiencePage = memo(() => {
               <div className="milestone" />
               <h5 className="project-name">Celeb Confirmed </h5>
               <p className="mb-2 position-name">
-                <i>Mobile Developer </i>|<i> Oct 2022 – May 2023</i>
+                <i>Mobile Developer </i> |{' '}
+                <i>{t('celeb-confirmed-duration')}</i>
               </p>
               <ul className="ps-4">
                 <li className="opacity-75">
-                  Developed a React Native mobile app for Korean celebrity news,
-                  transforming Figma design into pixel perfect UI components
+                  {t('celeb-confirmed-description-1')}
                 </li>
                 <li className="opacity-75">
-                  Conducted rigorous debugging and optimization, improving app
-                  performance and user satisfaction
+                  {t('celeb-confirmed-description-2')}
                 </li>
               </ul>
             </div>
           </div>
 
           <div className="position-relative mb-4 overflow-hidden">
-            <h5 className="company-name mb-2">
-              Apr 2022 - Jun 2022 | CTY TNHH Ant-Tech
-            </h5>
+            <h5 className="company-name mb-2">{t('ant-tech-duration')}</h5>
             <div className="milestone-tree" />
             <div className="ps-4 position-relative">
               <div className="milestone" />
               <h5 className="project-name">Internship</h5>
               <p className="mb-2 position-name">
-                <i>Mobile Developer Intern</i> | <i>Apr 2022 - Jun 2022</i>
+                <i>Mobile Developer Intern</i> |{' '}
+                <i>{t('mobile-developer-intern-duration')}</i>
               </p>
               <ul className="ps-4">
                 <li className="opacity-75">
-                  Developed cross-platform apps using React Native
+                  {t('mobile-developer-intern-description-1')}
                 </li>
                 <li className="opacity-75">
-                  Implemented Redux for state management, integrated Firebase
-                  for authentication and image storage
+                  {t('mobile-developer-intern-description-2')}
                 </li>
                 <li className="opacity-75">
-                  Contributing to real world e-commerce and social media
-                  projects
+                  {t('mobile-developer-intern-description-3')}
                 </li>
               </ul>
             </div>
@@ -149,17 +131,11 @@ export const ExperiencePage = memo(() => {
                 </a>
               </h5>
               <p className="mb-2 position-name">
-                <i>Frontend Developer</i> | <i>May 2024 - Jun 2024</i>
+                <i>Frontend Developer</i> | <i>{t('sencam-duration')}</i>
               </p>
               <ul className="ps-4">
-                <li className="opacity-75">
-                  Delivered a fully responsive web application using React.js
-                  and Strapi CMS
-                </li>
-                <li className="opacity-75">
-                  Managed end to end deployment pipeline including build
-                  optimization and production release
-                </li>
+                <li className="opacity-75">{t('sencam-description-1')}</li>
+                <li className="opacity-75">{t('sencam-description-2')}</li>
               </ul>
             </div>
           </div>
