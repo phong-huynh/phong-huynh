@@ -52,5 +52,7 @@
   "sencam-description-1": "Delivered a fully responsive web application using React.js and Strapi CMS",
   "sencam-description-2": "Managed end to end deployment pipeline including build optimization and production release",
   "browse-my-recent": "Browse My Recent",
-  "projects": "Projects"
+  "projects": "Projects",
+  "get-in-touch": "Get in Touch",
+  "contact-me": "Contact Me"
 }

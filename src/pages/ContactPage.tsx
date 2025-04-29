@@ -1,13 +1,16 @@
 import { memo } from 'react'
+import { useTranslation } from 'react-i18next'
 import { Email, LinkedIn } from '../assets'
 import { author } from '../configs'
 
 export const ContactPage = memo(() => {
+  const { t } = useTranslation()
+
   return (
     <section id="contact" className="section-container contact-page-container">
       <div className="d-flex flex-column align-items-center justify-content-center flex-fill">
-        <p className="mb-0 section-sub-title">Get in Touch</p>
-        <h1 className="section-title">Contact Me</h1>
+        <p className="mb-0 section-sub-title">{t('get-in-touch')}</p>
+        <h1 className="section-title">{t('contact-me')}</h1>
 
         <div className="contact-info-container">
           <div className="contact-info">

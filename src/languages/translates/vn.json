@@ -52,5 +52,7 @@
   "sencam-description-1": "Triển khai một ứng dụng web tối ưu hóa giao diện cho mọi thiết bị sử dụng React.js và Strapi CMS",
   "sencam-description-2": "Quản lý quy trình triển khai, bao gồm tối ưu hóa build và phát hành sản phẩm lên môi trường production",
   "browse-my-recent": "Xem những dự án gần đây",
-  "projects": "Dự án"
+  "projects": "Dự án",
+  "get-in-touch": "Kết nối với tôi",
+  "contact-me": "Liên hệ"
 }
