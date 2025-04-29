@@ -1,5 +1,5 @@
 import { memo } from 'react'
-import { GitHub, LinkedIn, MyCV } from '../assets'
+import { GitHub, LinkedIn, MyCV, VnFlag } from '../assets'
 import Avatar from '../assets/resizes/avatar.jpg'
 import { author } from '../configs'
 
@@ -25,7 +25,7 @@ export const HomePage = memo(() => {
           </button>
         </div>
 
-        <div className="d-flex gap-3">
+        <div className="d-flex gap-3 align-items-center">
           <img
             loading="lazy"
             src={LinkedIn}
@@ -33,6 +33,9 @@ export const HomePage = memo(() => {
             className="cursor-pointer"
             onClick={() => window.open(author.linkedIn)}
           />
+
+          <img src={VnFlag} className="vn-flag" alt="vn-flag" />
+
           <img
             loading="lazy"
             src={GitHub}

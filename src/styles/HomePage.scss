@@ -5,6 +5,11 @@
   align-items: center;
   gap: 1.5rem;
 
+  .vn-flag {
+    width: 55px;
+    aspect-ratio: 16/9;
+  }
+
   .avatar {
     width: 170px;
     aspect-ratio: 1;
