@@ -1,7 +1,8 @@
 import { Box, Drawer } from '@mui/material'
 import { useState } from 'react'
+import { useTranslation } from 'react-i18next'
 import { BreadIcon, CloseIcon, GitHub, LinkedIn } from './assets'
-import { ScrollButton } from './components'
+import { LanguageSetting, ScrollButton } from './components'
 import { author } from './configs'
 import {
   AboutPage,
@@ -12,6 +13,7 @@ import {
 } from './pages'
 
 export const App = () => {
+  const { t } = useTranslation()
   const [open, setOpen] = useState(false)
 
   const toggleDrawer = () => setOpen((prev) => !prev)
@@ -25,16 +27,16 @@ export const App = () => {
 
         <div className="nav-links-container">
           <a className="nav-link" href="#about">
-            About
+            {t('about')}
           </a>
           <a className="nav-link" href="#experience">
-            Experience
+            {t('experience')}
           </a>
           <a className="nav-link" href="#project">
-            Project
+            {t('project')}
           </a>
           <a className="nav-link" href="#contact">
-            Contact
+            {t('contact')}
           </a>
         </div>
 
@@ -58,28 +60,30 @@ export const App = () => {
           className="drawer-nav-links"
         >
           <div className="nav-links-container">
-            <div className="d-flex align-items-center mb-4">
+            <div className="d-flex align-items-center justify-content-between mb-4">
               <img
                 src={CloseIcon}
                 onClick={toggleDrawer}
                 className="close-icon cursor-pointer"
                 alt="close-icon"
               />
+
+              <LanguageSetting />
             </div>
             <a onClick={toggleDrawer} className="nav-link mb-3" href="#home">
               Phong Huynh
             </a>
             <a onClick={toggleDrawer} className="nav-link" href="#about">
-              About
+              {t('about')}
             </a>
             <a onClick={toggleDrawer} className="nav-link" href="#experience">
-              Experience
+              {t('experience')}
             </a>
             <a onClick={toggleDrawer} className="nav-link" href="#project">
-              Project
+              {t('project')}
             </a>
             <a onClick={toggleDrawer} className="nav-link" href="#contact">
-              Contact
+              {t('contact')}
             </a>
           </div>
 
