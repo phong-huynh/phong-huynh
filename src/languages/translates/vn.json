@@ -6,5 +6,19 @@
   "hello-i-am": "Xin chào tôi là",
   "software-engineer": "Kỹ sư phần mềm",
   "download-cv": "Tải xuống CV",
-  "contact-info": "Thông tin liên hệ"
+  "contact-info": "Thông tin liên hệ",
+  "good-to-know-more": "Tốt để biết thêm",
+  "about-me": "Về Tôi",
+  "objectives": "Kỹ sư phần mềm với hơn 2.5 năm kinh nghiệm trong việc xây dựng các ứng dụng web và di động sử dụng React.js và React Native, cùng niềm đam mê và kinh nghiệm thực tiễn trong việc tích hợp Web3/Blockchain. Thành thạo các framework JavaScript/TypeScript hiện đại, phát triển giao diện người dùng (UI) và tích hợp API. Có khả năng phối hợp hiệu quả với hệ thống backend và triển khai các giải pháp full-stack.",
+  "mobile-applications-development": "Phát triển ứng dụng di động",
+  "mobile-applications-development-description": "Đã phát triển các ứng dụng di động đa nền tảng với giao diện người dùng (UI) trực quan, trải nghiệm người dùng (UX) mượt mà, thiết kế linh hoạt tương thích với nhiều thiết bị, cùng khả năng tích hợp liền mạch với các dịch vụ backend.",
+  "websites-development": "Phát triển websites",
+  "websites-development-description": "Xây dựng các website hiệu suất cao, thân thiện với người dùng, giao diện chuyên nghiệp, sử dụng các công nghệ hiện đại để phát triển ứng dụng web hiệu quả và dễ mở rộng.",
+  "blockchain": "Blockchain",
+  "blockchain-description": "Tập trung vào việc tạo ra các sản phẩm blockchain an toàn, hiệu quả, tận dụng tối đa hợp đồng thông minh (Smart Contracts) và mạng lưới phi tập trung.",
+  "backend-development": "Phát triển backend",
+  "backend-development-description": "Tập trung vào việc xây dựng các hệ thống backend hiệu suất cao, xử lý lưu lượng lớn, đảm bảo khả năng mở rộng và dễ bảo trì.",
+  "education": "Học vấn",
+  "education-school": "Công nghệ phần mềm | Cao đẳng Kỹ thuật Cao Thắng",
+  "education-gpa": "09/2019 -  09/2022 | GPA 7.6 / 10"
 }
