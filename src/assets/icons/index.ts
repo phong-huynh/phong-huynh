@@ -2,6 +2,7 @@ import ArrowDown from './arrow-down.svg'
 import BackendDevelopment from './backend-development.svg'
 import Blockchain from './blockchain.svg'
 import BreadIcon from './bread-icon.svg'
+import CloseIcon from './close.svg'
 import Education from './education.svg'
 import Email from './email.svg'
 import Expanded from './expanded.svg'
@@ -15,6 +16,7 @@ export {
   BackendDevelopment,
   Blockchain,
   BreadIcon,
+  CloseIcon,
   Education,
   Email,
   Expanded,

@@ -65,6 +65,11 @@
   height: 100%;
   justify-content: space-between;
 
+  .close-icon {
+    width: 18px;
+    aspect-ratio: 1;
+  }
+
   .nav-links-container {
     display: flex;
     flex-direction: column;

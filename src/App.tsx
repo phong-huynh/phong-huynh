@@ -1,6 +1,6 @@
 import { Box, Drawer } from '@mui/material'
 import { useState } from 'react'
-import { BreadIcon, GitHub, LinkedIn } from './assets'
+import { BreadIcon, CloseIcon, GitHub, LinkedIn } from './assets'
 import { ScrollButton } from './components'
 import { author } from './configs'
 import {
@@ -52,8 +52,20 @@ export const App = () => {
       <ScrollButton />
 
       <Drawer anchor="right" open={open} onClose={toggleDrawer}>
-        <Box width={200} className="drawer-nav-links">
+        <Box
+          maxWidth={350}
+          width={window.innerWidth * 0.5}
+          className="drawer-nav-links"
+        >
           <div className="nav-links-container">
+            <div className="d-flex align-items-center mb-4">
+              <img
+                src={CloseIcon}
+                onClick={toggleDrawer}
+                className="close-icon cursor-pointer"
+                alt="close-icon"
+              />
+            </div>
             <a onClick={toggleDrawer} className="nav-link mb-3" href="#home">
               Phong Huynh
             </a>
