@@ -2,7 +2,7 @@ import { Box, Drawer } from '@mui/material'
 import { useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import { BreadIcon, CloseIcon, GitHub, LinkedIn } from './assets'
-import { LanguageSetting, ScrollButton } from './components'
+import { ScrollButton } from './components'
 import { author } from './configs'
 import {
   AboutPage,
@@ -67,8 +67,6 @@ export const App = () => {
                 className="close-icon cursor-pointer"
                 alt="close-icon"
               />
-
-              <LanguageSetting />
             </div>
             <a onClick={toggleDrawer} className="nav-link mb-3" href="#home">
               Phong Huynh
